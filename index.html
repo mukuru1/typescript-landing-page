@@ -1,55 +1,70 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TypeScript Landing Page</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-<header>
-    <a href="#" class="logo">ABA English</a>
-    <ul class="menu">
- 
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#method">Method</a></li>
-        <li><a href="#certificates">Certificates</a></li>
-        <li><a href="#Resources">Resources</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
 
-    <div class="auth-buttons">
+<header class="header">
+  <a href="#" class="logo">ABA English</a>
+
+  <ul class="menu">
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#method">Method</a></li>
+    <li><a href="#certificates">Certificates</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="auth-buttons">
     <button class="btn-login">Login</button>
     <button class="btn-signup">Sign Up</button>
   </div>
-
 </header>
 
 <section class="hero">
-   
-<p class="subtitle">English courses for every Level & Goal</p>
+  <p class="subtitle">English courses for every Level & Goal</p>
 
-<h1 class="">Learn English <br> Online with Real <br>Teachers</h1>
+  <h1>
+    Learn English <br />
+    <span>Online</span> with Real <br />
+    Teachers
+  </h1>
 
-<p class="description">Improve your speaking, grammar, and confidence with<br>
-interactive lessons, live sessions, and a learning method<br>
-based on real-life situations</p>
+  <p class="description">
+    Improve your speaking, grammar, and confidence with<br />
+    interactive lessons, live sessions, and a learning method<br />
+    based on real-life situations
+  </p>
 
-<button class="btn-start">Start Learning for Free</button>
-<button class="btn-watch">Explore the Method</button>
+  <div class="hero-buttons">
+    <button class="btn-start">Start Learning for Free</button>
+    <button class="btn-watch">Explore the Method</button>
+  </div>
 
-<p class="students">30M+ Students world wide</p>
+  <p class="students">30M+ Students world wide</p>
+</section>
 
-<p class="how-it-works">How it Works</p>
+<section class="how">
+  <p class="how-it-works">How it Works</p>
 
-<h2 class="courses" id="courses">A Simple and Smart Way<br>
-to Learn English</h2>
+  <h2 id="courses">
+    A Simple and Smart Way <br />
+    to Learn English
+  </h2>
 
-<p class=" ">Our method combines audio, interactive exercises, and teacher<br> support to give you a solid foundation, no matter your level or learning goals.</p>
+  <p class="how-description">
+    Our method combines audio, interactive exercises, and teacher<br />
+    support to give you a solid foundation, no matter your level or learning goals.
+  </p>
+</section>
+
+<script src="landing.js"></script>
 </body>
-
-<script src="script.js"></script>
-
 </html>
