@@ -24,3 +24,15 @@ logo {
   text-decoration: none;
   color: #000;
 }
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 26px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
