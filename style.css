@@ -36,3 +36,8 @@ logo {
   color: #333;
   font-size: 14px;
 }
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
