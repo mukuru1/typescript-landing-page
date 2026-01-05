@@ -17,3 +17,10 @@ body {
   padding: 22px 80px;
   border-bottom: 1px solid #eee;
 }
+
+logo {
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
