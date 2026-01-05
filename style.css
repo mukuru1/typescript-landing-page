@@ -7,4 +7,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
 }
