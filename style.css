@@ -55,3 +55,10 @@ logo {
   padding: 8px 16px;
   border-radius: 18px;
 }
+
+hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
